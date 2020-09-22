@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite123">
-	<!-- <test name="Regression1" > <packages> <package name="testNG" /> </packages> 
-		</test> -->
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"   [
+        <!ENTITY listeners SYSTEM "listeners.xml">
+        <!ENTITY classes SYSTEM "classes.xml">
+        ]>
+
+
+<suite name="Suite123" verbose = "1">
 	<test name="Test1">
 		<groups>
 			<run>
@@ -10,7 +13,6 @@
 				<include name="group2" />
 			</run>
 		</groups>
-		
 		<classes>
 			<class name="testNG.dependsOnMethod" />
 		</classes>

@@ -1,20 +1,32 @@
 package testNG;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 
 public class Driver {
 
 	public static WebDriver driver;
-
+	public static Duration SECONDS = null;
 //	@BeforeTest
 	public void chromer_driver() {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-		driver = new ChromeDriver();
+		
+//		driver = new ChromeDriver();
+//		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
+//				.withTimeout(SECONDS)
+//				.pollingEvery(SECONDS)
+//				.ignoring(ElementNotVisibleException.class);
+//
+//		
+//		WebElement ele = wait.until(new Function< WebDriver, WebElement>() {
+//
+//			public WebElement apply(WebDriver t) {
+//				return driver.findElement(By.id("xpath"));
+//			}});
 	}
 
 	public WebDriver getChromerDriver() {
