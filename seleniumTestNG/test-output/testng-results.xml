@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="258" started-at="2020-09-19T13:41:52 IST" finished-at="2020-09-19T13:41:52 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="258" started-at="2020-09-19T13:41:52 IST" finished-at="2020-09-19T13:41:52 IST">
+      <class name="factoryInTestNG.DataProviderTestNG">
+        <test-method status="PASS" signature="testArrayListConverToInterger(java.lang.String, java.lang.String)[pri:0, instance:factoryInTestNG.DataProviderTestNG@34c4973]" name="testArrayListConverToInterger" duration-ms="12" started-at="2020-09-19T13:41:52 IST" data-provider="testdata1" finished-at="2020-09-19T13:41:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArrayListConverToInterger -->
+        <test-method status="PASS" signature="testArrayListConverToInterger(java.lang.String, java.lang.String)[pri:0, instance:factoryInTestNG.DataProviderTestNG@34c4973]" name="testArrayListConverToInterger" duration-ms="5" started-at="2020-09-19T13:41:52 IST" data-provider="testdata1" finished-at="2020-09-19T13:41:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArrayListConverToInterger -->
+        <test-method status="PASS" signature="testArrayListConverToInterger(java.lang.String, java.lang.String)[pri:0, instance:factoryInTestNG.DataProviderTestNG@34c4973]" name="testArrayListConverToInterger" duration-ms="2" started-at="2020-09-19T13:41:52 IST" data-provider="testdata1" finished-at="2020-09-19T13:41:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArrayListConverToInterger -->
+        <test-method status="PASS" signature="testArrayListConverToInterger(java.lang.String, java.lang.String)[pri:0, instance:factoryInTestNG.DataProviderTestNG@34c4973]" name="testArrayListConverToInterger" duration-ms="2" started-at="2020-09-19T13:41:52 IST" data-provider="testdata1" finished-at="2020-09-19T13:41:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArrayListConverToInterger -->
+        <test-method status="PASS" signature="withIteratorAndArray(java.lang.String, java.lang.String)[pri:0, instance:factoryInTestNG.DataProviderTestNG@34c4973]" name="withIteratorAndArray" duration-ms="3" started-at="2020-09-19T13:41:52 IST" data-provider="testdata2" finished-at="2020-09-19T13:41:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withIteratorAndArray -->
+        <test-method status="PASS" signature="withIteratorAndArray(java.lang.String, java.lang.String)[pri:0, instance:factoryInTestNG.DataProviderTestNG@34c4973]" name="withIteratorAndArray" duration-ms="4" started-at="2020-09-19T13:41:52 IST" data-provider="testdata2" finished-at="2020-09-19T13:41:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withIteratorAndArray -->
+        <test-method status="PASS" signature="withIteratorAndArray(java.lang.String, java.lang.String)[pri:0, instance:factoryInTestNG.DataProviderTestNG@34c4973]" name="withIteratorAndArray" duration-ms="3" started-at="2020-09-19T13:41:52 IST" data-provider="testdata2" finished-at="2020-09-19T13:41:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withIteratorAndArray -->
+        <test-method status="PASS" signature="withIteratorAndArray(java.lang.String, java.lang.String)[pri:0, instance:factoryInTestNG.DataProviderTestNG@34c4973]" name="withIteratorAndArray" duration-ms="3" started-at="2020-09-19T13:41:52 IST" data-provider="testdata2" finished-at="2020-09-19T13:41:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withIteratorAndArray -->
+        <test-method status="PASS" signature="withObjectArray(java.lang.String, java.lang.String)[pri:0, instance:factoryInTestNG.DataProviderTestNG@34c4973]" name="withObjectArray" duration-ms="9" started-at="2020-09-19T13:41:52 IST" data-provider="testdata" finished-at="2020-09-19T13:41:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withObjectArray -->
+        <test-method status="PASS" signature="withObjectArray(java.lang.String, java.lang.String)[pri:0, instance:factoryInTestNG.DataProviderTestNG@34c4973]" name="withObjectArray" duration-ms="7" started-at="2020-09-19T13:41:52 IST" data-provider="testdata" finished-at="2020-09-19T13:41:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withObjectArray -->
+        <test-method status="PASS" signature="withObjectArray(java.lang.String, java.lang.String)[pri:0, instance:factoryInTestNG.DataProviderTestNG@34c4973]" name="withObjectArray" duration-ms="12" started-at="2020-09-19T13:41:52 IST" data-provider="testdata" finished-at="2020-09-19T13:41:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withObjectArray -->
+        <test-method status="PASS" signature="withObjectArray(java.lang.String, java.lang.String)[pri:0, instance:factoryInTestNG.DataProviderTestNG@34c4973]" name="withObjectArray" duration-ms="2" started-at="2020-09-19T13:41:52 IST" data-provider="testdata" finished-at="2020-09-19T13:41:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withObjectArray -->
+      </class> <!-- factoryInTestNG.DataProviderTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

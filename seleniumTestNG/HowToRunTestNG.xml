@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="basicTestngXML">
+	<test name="basicTestngXML">
+		<classes>
+			<class name="testNGPack.AnnotationInTestNG">
+			</class>
+		</classes>
+	</test>
+
+	<test name="groupsTestNG">
+		<groups>
+			<run>
+				<include name="sanity"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testNGPack.GourpInTestNG">
+			</class>
+		</classes>
+	</test>
+
+	<test name="dependsOnMethodS">
+		<classes>
+			<class name="testNGPack.DependsOnMethodInTestNg">
+			</class>
+		</classes>
+	</test>
+
+
+	<parameter name="UserName" value="Lakshman"></parameter>
+	<parameter name="password" value="Password@1234"></parameter>
+	<test name="parametersInTestNG">
+		<classes>
+			<class name="testNGPack.ParametersInTestng">
+			</class>
+		</classes>
+	</test>
+
+
+
+</suite>
