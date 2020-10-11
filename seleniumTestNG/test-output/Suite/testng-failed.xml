@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="TestPriority(failed)">
+    <classes>
+      <class name="preserveOrder.PriotyCheckingWithXMLandPriority">
+        <methods>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- preserveOrder.PriotyCheckingWithXMLandPriority -->
+      <class name="preserveOrder.PriotyCheckingWithXMLandPriority2">
+        <methods>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- preserveOrder.PriotyCheckingWithXMLandPriority2 -->
+      <class name="preserveOrder.PriotyCheckingWithXMLandPriority3">
+        <methods>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- preserveOrder.PriotyCheckingWithXMLandPriority3 -->
+    </classes>
+  </test> <!-- TestPriority(failed) -->
+</suite> <!-- Failed suite [Suite] -->

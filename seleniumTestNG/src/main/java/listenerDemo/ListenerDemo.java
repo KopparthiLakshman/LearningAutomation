@@ -1,13 +1,16 @@
 package listenerDemo;
 
+import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.Reporter;
 
-public class ListenerDemo implements ITestListener {
+public class ListenerDemo extends Assert implements ITestListener {
 
 	public void onTestStart(ITestResult result) {
-		System.out.println(" Logging from Printing in onTestStart() :: " +result.getName());
+		Reporter.log("Testin execution start in OnTestStart method in Listerner class");
+		System.out.println(" Class from listener :: " +result.getClass().getName() + " :: Method :: " + result.getName());
 	}
 
 	public void onTestSuccess(ITestResult result) {

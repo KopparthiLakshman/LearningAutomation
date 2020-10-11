@@ -1,5 +1,6 @@
 package excelreader;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -19,7 +20,8 @@ public class ExcelReaderHelper {
 	private XSSFCell cell;
 
 	private String filepath;
-	private String sheetname;
+
+	
 	private LinkedHashMap<String, ArrayList<ArrayList<String>>> xlCache;
 
 	public ExcelReaderHelper(String filepath) {
@@ -43,8 +45,13 @@ public class ExcelReaderHelper {
 	private XSSFWorkbook getWorkBook() {
 		if(workbook == null){
 			try {
-				workbook = new XSSFWorkbook(new FileInputStream(filepath));
+				if(new File(filepath) != null)
+				{
+					FileInputStream fileInputStream = new FileInputStream(filepath);
+					workbook = new XSSFWorkbook(fileInputStream);
+				}
 			} catch (FileNotFoundException e) {
+				System.out.println("Excel file is not available");
 				e.printStackTrace();
 			} catch (IOException e) {
 				e.printStackTrace();

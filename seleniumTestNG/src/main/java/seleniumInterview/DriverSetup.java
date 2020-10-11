@@ -10,6 +10,11 @@ public class DriverSetup {
 	public DriverSetup() {
 		System.setProperty("webdriver.ie.driver", "C:\\khaza\\softwares\\IEDriverServer.exe");
 		driver = new InternetExplorerDriver();
+		
+		/**
+		 *  driver.manage().window().fullscreen(); */
+	
+	
 	}
 	public WebDriver getDriver() {
 		return driver;

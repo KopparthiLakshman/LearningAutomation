@@ -1,0 +1,29 @@
+
+framework is a hybrid model 
+It is maven project and pom.xml is the root where we will have configured all the required dependencies.
+
+where in we have used, selenium, java, cucumber , testng, AUTreporting, extent reporting
+
+we have mainly two package - src/main/java and src/test/java package
+Folder - as reports, screenshots, properties, Logs....
+we will store the apropriate details in the folders
+
+In test package - we will maintain all out testscripts 
+In main package we ahave all aout java code that supports the testscripts
+	in main package again we have sub packages - for base - comon action, loading properties ... , pagesaction, pages, listeners, 
+
+	we have a package where we will have feature files
+
+	 	 
+<suite parallel = "method\ class\ test" >
+<listeners>
+<listener>
+<test>
+<parameters>
+<parameter>
+<classes>
+<class>
+<Method>
+<include>
+<exclued>
+

@@ -30,14 +30,64 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Questions {
-
-
 	public static void main(String[] args) {
 
+		/**
+		 * Different Types of Xpath and their Axes methods
+		 * 
+		 * contains(), text(), starts-with(), ends-with(), 
+		 * following
+		 * following-sibling
+		 * preceding
+		 * preceding-sibling
+		 * descendants
+		 * parent
+		 * child
+		 * ancestor
+		 *  
+		 * 
+		 *
+		 * Absolute XPath -
+		 * /html/body/div[2]/div[1]/div/h4[1]/b/html[1]/body[1]/div[2]/div[1]/div[1]/h4[
+		 * 1]/b[1] Relative Xpath - //div[2]/div[1]/div[1]/h4[1]/b[1]
+		 * Xpath=//input[@name='uid'] Xpath=//input[@type='text'] Xpath=
+		 * //label[@id='message23'] Xpath= //input[@value='RESET']
+		 * Xpath=//*[@class='barone'] Xpath=//a[@href='http://demo.guru99.com/'] Xpath=
+		 * //img[@src='//cdn.guru99.com/images/home/java.png']
+		 * 
+		 * Xpath=//*[contains(@name,'btn')]
+		 * 
+		 * Xpath=//*[contains(text(),'here')]
+		 * 
+		 * Xpath=//*[@type='submit' or @name='btnReset'] Xpath=//*[@type='submit'
+		 * and @name='btnReset']
+		 * 
+		 * Xpath=//label[starts-with(@id,'message')]
+		 * 
+		 * Xpath=//td[text()='UserID']
+		 * 
+		 * driver.findElement(By.xpath("@id[name='Submit']//following-sibling::td[2]]"))
+		 * ;
+		 * 
+		 * Xpath=//*[text()='Enterprise Testing']//ancestor::div
+		 * 
+		 * driver.findElement(By.xpath("@id[name='Submit']//child::td[2]]"));
+		 * driver.findElement(By.xpath("Xpath=//*[@id='rt-feature']//parent::div"));
+		 * 
+		 * Xpath=//*[@type='submit']//preceding::input
+		 * 
+		 * driver.findElement(By.xpath("@id[name='Submit']//preceeding-sibling::td[2]]")
+		 * );
+		 * 
+		 * Xpath=//*[@id='rt-feature']//descendant::a[1]
+		 */
+/**===================================================================================================================================
+ **/
 		/**Locators in selenium : 
 		 * id
 		 * Name
@@ -47,15 +97,17 @@ public class Questions {
 		 * 		 - Relative xpath/ Dymanic xpath
 		 * 				-	input[starts-with(@id,'ctrl')]	
 		 * 				-	input[ends-with(@id,'_userName')]
-		 * 				-	Input[contains(@id,'userName')] , Input[contains(text(),'userName')]
+		 * 				-	input[contains(@id,'userName')] , input[contains(text(),'userName')]
 		 * CSS Selector
 		 * 	-	input[id^='ctrl']
 		 * 	-	input[id$='_userName']
-		 * 	-	Input[id*='userName']
+		 * 	-	input[id*='userName']
 		 * Linkedtext
 		 * PartialLinkedtext
 		 * */
 
+/**===================================================================================================================================
+ **/
 
 		WebDriver driver ;
 		System.setProperty("webdriver.chrome.driver", "D:\\EclipseWorkSpace_01_03_2015\\Drivers\\chromedriver.exe");
@@ -85,9 +137,9 @@ public class Questions {
 			}
 		});
 
-		
-		
-		
+
+
+
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -147,44 +199,13 @@ public class Questions {
 		driver.getTitle();
 
 
-//		Absolute XPath  - /html/body/div[2]/div[1]/div/h4[1]/b/html[1]/body[1]/div[2]/div[1]/div[1]/h4[1]/b[1]
-//		Relative Xpath - //div[2]/div[1]/div[1]/h4[1]/b[1]
-//		Xpath=//input[@name='uid']
-//		Xpath=//input[@type='text']				
-//		Xpath=	//label[@id='message23']
-//		Xpath=	//input[@value='RESET']
-//		Xpath=//*[@class='barone']
-//		Xpath=//a[@href='http://demo.guru99.com/']
-//		Xpath= //img[@src='//cdn.guru99.com/images/home/java.png']
-
-//		Xpath=//*[contains(@name,'btn')]
-
-//		Xpath=//*[contains(text(),'here')]
-
-//		Xpath=//*[@type='submit' or @name='btnReset']
-//		Xpath=//*[@type='submit' and @name='btnReset']
-
-//		Xpath=//label[starts-with(@id,'message')]
-
-//		Xpath=//td[text()='UserID']
-		
-		driver.findElement(By.xpath("@id[name='Submit']//following-sibling::td[2]]"));
-		
-//		Xpath=//*[text()='Enterprise Testing']//ancestor::div
-		
-		driver.findElement(By.xpath("@id[name='Submit']//child::td[2]]"));
-		driver.findElement(By.xpath("Xpath=//*[@id='rt-feature']//parent::div"));
-		
-//		Xpath=//*[@type='submit']//preceding::input		
-		
-		driver.findElement(By.xpath("@id[name='Submit']//preceeding-sibling::td[2]]"));
-
-//		Xpath=//*[@id='rt-feature']//descendant::a[1]
 
 
+		// override  - Assert methods
 
-
-
+		Assert.assertTrue(true);
+		Assert.assertEquals(1, 1);
+		Assert.assertEquals(true, 1==1, "String Mesage");
 
 
 	}

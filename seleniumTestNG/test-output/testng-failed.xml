@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="factoryInTestNG.InvocationCount">
+      <class name="factoryInTestNG.SoftAssertTestNG">
         <methods>
-          <include name="name"/>
+          <include name="SfotAssertClass"/>
         </methods>
-      </class> <!-- factoryInTestNG.InvocationCount -->
+      </class> <!-- factoryInTestNG.SoftAssertTestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

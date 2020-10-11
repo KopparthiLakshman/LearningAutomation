@@ -10,8 +10,8 @@ public class Checkingexcelreader {
 		
 		ExcelReaderHelper erh = new ExcelReaderHelper("F:\\SeleniumTestData.xlsx");
 		System.out.println(erh.getDataFromExcel("MailPass", 0, 0));
-		System.out.println(erh.getDataFromExcel("MailPass", 1, 0));
-		System.out.println(erh.getDataFromExcel("MailPass", 2, 0));
+		System.out.println(erh.getDataFromExcel("MailPass", 1, 1));
+		System.out.println(erh.getDataFromExcel("MailPass", 2, 1));
 		
 	}
 }
