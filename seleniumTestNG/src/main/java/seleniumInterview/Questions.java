@@ -146,12 +146,14 @@ public class Questions {
 
 		driver.switchTo().newWindow(WindowType.TAB);
 		driver.get("http://www.google.com");
-
+		
+		
 		//3.0
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		WebElement ele = driver.findElement(By.xpath("//img[contains(@id, 'hplogo')]")); 
-
+		
+		
 
 
 		driver.getWindowHandle();

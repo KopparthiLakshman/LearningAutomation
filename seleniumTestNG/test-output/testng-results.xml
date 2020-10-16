@@ -1,61 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="96" started-at="2020-10-06T10:26:00 IST" finished-at="2020-10-06T10:26:00 IST">
+  <suite name="Default suite" duration-ms="14381" started-at="2020-10-16T14:43:51 IST" finished-at="2020-10-16T14:44:05 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="96" started-at="2020-10-06T10:26:00 IST" finished-at="2020-10-06T10:26:00 IST">
-      <class name="factoryInTestNG.OrderOfAnnotations">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:factoryInTestNG.OrderOfAnnotations@2353b3e6]" name="BeforeSuite" is-config="true" duration-ms="16" started-at="2020-10-06T10:26:00 IST" finished-at="2020-10-06T10:26:00 IST">
+    <test name="Default test" duration-ms="14381" started-at="2020-10-16T14:43:51 IST" finished-at="2020-10-16T14:44:05 IST">
+      <class name="windows.TestWin1">
+        <test-method status="PASS" signature="MultWin()[pri:0, instance:windows.TestWin1@fad74ee]" name="MultWin" duration-ms="14341" started-at="2020-10-16T14:43:51 IST" finished-at="2020-10-16T14:44:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:factoryInTestNG.OrderOfAnnotations@2353b3e6]" name="BeforeTest" is-config="true" duration-ms="0" started-at="2020-10-06T10:26:00 IST" finished-at="2020-10-06T10:26:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:factoryInTestNG.OrderOfAnnotations@2353b3e6]" name="BeforeClass" is-config="true" duration-ms="0" started-at="2020-10-06T10:26:00 IST" finished-at="2020-10-06T10:26:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:factoryInTestNG.OrderOfAnnotations@2353b3e6]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-10-06T10:26:00 IST" finished-at="2020-10-06T10:26:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Test1()[pri:0, instance:factoryInTestNG.OrderOfAnnotations@2353b3e6]" name="Test1" duration-ms="16" started-at="2020-10-06T10:26:00 IST" finished-at="2020-10-06T10:26:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="AfterClass()[pri:0, instance:factoryInTestNG.OrderOfAnnotations@2353b3e6]" name="AfterClass" is-config="true" duration-ms="0" started-at="2020-10-06T10:26:00 IST" finished-at="2020-10-06T10:26:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterClass -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:factoryInTestNG.OrderOfAnnotations@2353b3e6]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-10-06T10:26:00 IST" finished-at="2020-10-06T10:26:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:factoryInTestNG.OrderOfAnnotations@2353b3e6]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-10-06T10:26:00 IST" finished-at="2020-10-06T10:26:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:factoryInTestNG.OrderOfAnnotations@2353b3e6]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2020-10-06T10:26:00 IST" finished-at="2020-10-06T10:26:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="Test2()[pri:0, instance:factoryInTestNG.OrderOfAnnotations@2353b3e6]" name="Test2" duration-ms="0" started-at="2020-10-06T10:26:00 IST" finished-at="2020-10-06T10:26:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:factoryInTestNG.OrderOfAnnotations@2353b3e6]" name="AfterTest" is-config="true" duration-ms="0" started-at="2020-10-06T10:26:00 IST" finished-at="2020-10-06T10:26:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterTest -->
-        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:factoryInTestNG.OrderOfAnnotations@2353b3e6]" name="AfterSuite" is-config="true" duration-ms="0" started-at="2020-10-06T10:26:00 IST" finished-at="2020-10-06T10:26:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterSuite -->
-      </class> <!-- factoryInTestNG.OrderOfAnnotations -->
+        </test-method> <!-- MultWin -->
+      </class> <!-- windows.TestWin1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

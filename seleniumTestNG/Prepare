@@ -1,3 +1,8 @@
+STLC 
+
+Requirement Analysis > Test Planning > Testcase Development > Environment Setup > Test Execution > Test Closure
+
+Risk mitigation should be provided at the begining of the requirement such as 
 
 framework is a hybrid model 
 It is maven project and pom.xml is the root where we will have configured all the required dependencies.
