@@ -4,6 +4,7 @@ package selenium4;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
@@ -54,9 +55,22 @@ public class Selenium4Demo extends Assert{
 		driver.manage().window().maximize();
 
 		driver.switchTo().newWindow(WindowType.TAB);
+		driver.findElement(By.id("")).isSelected();
+		
+		driver.findElement(By.id("")).getAttribute("bgcolor");
+		
 		driver.get("http://www.google.com");
 
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.DAYS);
+		
+		String windowHandle = driver.getWindowHandle();
+		
+		HashSet<String> hset = new HashSet<String>();
+		
+		for (String string : hset) {
+			
+		}
+		Iterator<String> iterator2 = hset.iterator();
 		
 		
 		//3.0
@@ -84,8 +98,6 @@ public class Selenium4Demo extends Assert{
 		
 		
 		List<WebElement> options = sel.getOptions();
-		
-		
 		
 		
 		WebDriverWait waitt = new WebDriverWait(driver, Duration.ofSeconds(30));

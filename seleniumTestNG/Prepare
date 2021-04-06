@@ -1,3 +1,7 @@
+SDLC 
+
+Requirement gathering > PLanning > design > implementation / coding > Testing > coding > maintenance 
+
 STLC 
 
 Requirement Analysis > Test Planning > Testcase Development > Environment Setup > Test Execution > Test Closure
@@ -14,10 +18,10 @@ Folder - as reports, screenshots, properties, Logs....
 we will store the apropriate details in the folders
 
 In test package - we will maintain all out testscripts 
-In main package we ahave all aout java code that supports the testscripts
-	in main package again we have sub packages - for base - comon action, loading properties ... , pagesaction, pages, listeners, 
+In main package we a have all our java code that supports the testscripts
+	in main package again we have sub packages - for base - common action, loading properties ... , pages action, pages, listeners, 
 
-	we have a package where we will have feature files
+we have a package where we will have feature files
 
 	 	 
 <suite parallel = "method\ class\ test" >
@@ -31,4 +35,208 @@ In main package we ahave all aout java code that supports the testscripts
 <Method>
 <include>
 <exclued>
+
+#4) 400 Series
+These are specific to client-side error.
+
+400 – Bad Request
+401 – Unauthorised
+402 – Payment Required
+403 – Forbidden
+404 – Not Found
+405 – Method Not Allowed
+406 – Not Acceptable
+407 – Proxy Authentication Required
+408 – Request Timeout
+409 – Conflict
+410 – Gone
+411 – Length Required
+412 – Precondition Failed
+413 – Payload Too Large
+414 – URI Too Long
+415 – Unsupported Media Type
+416 – Range Not Satisfiable
+417 – Expectation Failed
+418 – I’m a teapot
+421 – Misdirected Request
+422 – Unprocessable Entity
+423 – Locked
+424 – Failed Dependency
+426 – Upgrade Required
+428 – Precondition Required
+429 – Too Many Requests
+431 – Request Header Fields Too Large
+451 – Unavailable For Legal Reasons
+#5) 500 Series
+These are specific to the server-side error.
+
+500 – Internal Server Error
+501 – Not Implemented
+502 – Bad Gateway
+503 – Service Unavailable
+504 – Gateway Timeout
+505 – HTTP Version Not Supported
+506 – Variant Also Negotiates
+507 – Insufficient Storage
+508 – Loop Detected
+510 – Not Extended
+511 –  Network Authentication Required
+
+#2) 200 Series
+The client accepts the Request, being processed successfully at the server.
+
+Page Load 
+
+GET: read/inbox/messages – Retrieves the list of all message under inbox
+GET: read/inbox/messages/10 – Reads 10th message in inbox
+POST: create/inbox/folders – Create a new folder under inbox
+DELETE: Delete/spam/messages – Delete  all the messages under spam folder
+PUT: folders/inbox/subfolder – Update the information relating to the subfolder under inbox.
+
+
+
+How you will scroll in selenium 
+How you will drag and drop in selenium 
+How to remove duplicated in list 
+How to check and the text in a text box with respect to the length
+If we have implicit and explicit condition in selenium which one will take the preceedence
+What is the order of annotation in TestNG
+What is your contribution in you automation framwork
+
+How to drag an element and drop in random location?
+
+What will happen if a file is already open and trying to write in using apachePOI ??
+java.io.FileNotFoundException: F:\SeleniumTestData.xlsx (The process cannot access the file because it is being used by another process)
+
+What Id SDLC?
+WHat is STLC?
+What is defect Life cycle?
+Is STLC part of SDLC ?
+
+What is regression testing ??
+What is integration testing ??
+What is the difference between regression and integration testing ?
+Program to split a string by length ??
+ex  input :: - " temenost24isacorebankingproduct " n =4
+	output :: teme nost 24is acor eban king prod uct
+
+where u will use interface and abstraction in you application ??
+
+What is the difference between agile and V model ??
+what is the difference between v model and waterfall model?d
+
+what is meant by 404 ?
+what is use of maven ? 
+have u use any CICD tool ?? if so what commands did u write in that ??
+how to switch between frames ??
+How to handle multiple windows??
+how to verify of an element is selected??
+How to get a value of attribute in selenium ?
+Program to find the duplicates adn their count in a string ??
+Program to find the union and intersection of multiple arrays ??
+
+How to get all \the wor data from a colum\n in excel ??
+WHat dependecy will u use to get data from excel??
+
+How you will generate the report in your framework ??
+Which listenrs u use in testng??
+
+What is an axes methods??
+what function did u use in dynamic xpath ??
+what is meant by absolute xpath??
+
+how to  handle alerts in selenium ??
+how to  will take screeshot in selenium ??
+how to disable notification ??
+different ways to scroll a webpage??
+how to drag and drop  ??
+how to select multiple keys in keyboard ??
+ 
+=======================================================================
+Mindtree
+
+1. Alert popup
+2. Scroll down
+3. Tool tip
+4. Web table compare elements
+5. Webdriver driver = new chromedriver() ;
+6. List functions
+7. Reverse
+8. Convert webelements to string and check india in a filter
+9. Method overloading in read excel
+10. Tesng data provider
+11. TestNG line number to execute
+12. Cucumber hook and tag
+13. Scenario outline
+14. Composition
+15. Final
+16. Javascript executor
+17. Command to add maven dependency
+18. Pull and fetch
+19. Annotations in testng
+20. Diff between interface and abstract class
+21. Actions methods
+22. Other than. Click
+23. Explicit wait
+24. Hash set size
+25. Explain framework
+26. Abt yourself
+27. Itestlistener
+28. Function to compare in list
+29. Driver object return
+30. Ascending in list
+31. List not contains this value
+32. multiple inheritance supported in java?
+
+=============================================================
+EY
+
+wireframe design
+
+1. final keyword
+2. remove duplicates in array
+3. protected
+4. timeout exception
+5. combine implicit wait and explicit wait
+6. get the integer values from a string - regular expression
+7. handle frames with no id and name
+8. frames
+9. error message that we get when the file is open
+10. keyword driven framework
+11. how to save file
+12. how to read values in pdf
+13. screenshot method
+14. ajax calls
+15. finally
+16. how to call variable without creating object
+17. what is webdriver
+18. defect triage call -?
+19. as a lead - responsibilities
+20. overriding
+21. order of annotations in testng
+22. what is scenario outline and scenario
+23. what is background
+24. how to run the set of test cases in cucumber without using tags
+25. what is difference between tags and hooks
+26. how will you migrate the scripts from uft to selenium
+27. what is keyword driven framework
+28. how will you run one particular step in a test cases with different test data
+29. compare and tell the benefits of one framework with another
+30. what is dcl commands
+31. Give some examples of DCL commands
+32. difference between commit and push
+33. can we run the test cases in command line
+34. what is pdftext stripper
+35. how will you find a value and validate in a parsed text
+ // Index of the first occurrence 
+    // after the specified index if found. 
+    int first_in = str.indexOf("Geeks", 10);
+boolean isPresent = input.indexOf("Java") != -1 ? true : false;
+36. how to mention multiple tags in a runner file. can we use tag1 and tag2. like using multiple tags AND operator
+Tags which are passed in separate quotes are ANDed
+Tags that are comma-separated are ORed.
+36. how to read values from pdf and excel
+
+
+
 

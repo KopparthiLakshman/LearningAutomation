@@ -20,7 +20,6 @@ public class ExcelReaderHelper {
 	private XSSFCell cell;
 
 	private String filepath;
-
 	
 	private LinkedHashMap<String, ArrayList<ArrayList<String>>> xlCache;
 

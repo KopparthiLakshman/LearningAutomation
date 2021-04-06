@@ -1,17 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14381" started-at="2020-10-16T14:43:51 IST" finished-at="2020-10-16T14:44:05 IST">
+  <suite name="Default suite" duration-ms="86" started-at="2021-01-08T00:04:29 IST" finished-at="2021-01-08T00:04:29 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14381" started-at="2020-10-16T14:43:51 IST" finished-at="2020-10-16T14:44:05 IST">
-      <class name="windows.TestWin1">
-        <test-method status="PASS" signature="MultWin()[pri:0, instance:windows.TestWin1@fad74ee]" name="MultWin" duration-ms="14341" started-at="2020-10-16T14:43:51 IST" finished-at="2020-10-16T14:44:05 IST">
+    <test name="Default test" duration-ms="86" started-at="2021-01-08T00:04:29 IST" finished-at="2021-01-08T00:04:29 IST">
+      <class name="testNG.dataProvider">
+        <test-method status="PASS" signature="verifyData1(java.lang.String)[pri:0, instance:testNG.dataProvider@16f7c8c1]" name="verifyData1" duration-ms="0" started-at="2021-01-08T00:04:29 IST" data-provider="test1" finished-at="2021-01-08T00:04:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshman]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MultWin -->
-      </class> <!-- windows.TestWin1 -->
+        </test-method> <!-- verifyData1 -->
+        <test-method status="PASS" signature="verifyData11(java.lang.String)[pri:0, instance:testNG.dataProvider@16f7c8c1]" name="verifyData11" duration-ms="0" started-at="2021-01-08T00:04:29 IST" data-provider="test2" finished-at="2021-01-08T00:04:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyData11 -->
+        <test-method status="PASS" signature="verifyData11(java.lang.String)[pri:0, instance:testNG.dataProvider@16f7c8c1]" name="verifyData11" duration-ms="2" started-at="2021-01-08T00:04:29 IST" data-provider="test2" finished-at="2021-01-08T00:04:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyData11 -->
+        <test-method status="PASS" signature="verifyData11(java.lang.String)[pri:0, instance:testNG.dataProvider@16f7c8c1]" name="verifyData11" duration-ms="2" started-at="2021-01-08T00:04:29 IST" data-provider="test2" finished-at="2021-01-08T00:04:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyData11 -->
+      </class> <!-- testNG.dataProvider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

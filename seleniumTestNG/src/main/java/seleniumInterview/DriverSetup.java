@@ -1,6 +1,8 @@
 package seleniumInterview;
 
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
@@ -11,9 +13,9 @@ public class DriverSetup {
 		System.setProperty("webdriver.ie.driver", "C:\\khaza\\softwares\\IEDriverServer.exe");
 		driver = new InternetExplorerDriver();
 		
-		/**
-		 *  driver.manage().window().fullscreen(); */
-	
+		driver.manage().window().fullscreen();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
 	
 	}
 	public WebDriver getDriver() {
